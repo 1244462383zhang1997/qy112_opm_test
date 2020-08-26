@@ -28,7 +28,7 @@
         <!--生成映射文件-->
         <sqlMapGenerator targetPackage="mappers" targetProject="src/main/resources">
             <property name="enableSubPackages" value="true" />
-        </sqlMapGenerator>35
+        </sqlMapGenerator>
         <!--生成mapper文件对应的dao-->
         <javaClientGenerator type="XMLMAPPER"
                              targetPackage="com.aaa.common.dao"
